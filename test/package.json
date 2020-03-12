@@ -1,0 +1,27 @@
+{
+  "name": "web-modules-test",
+  "version": "1.0.0",
+  "main": "./es/index.js",
+  "module": "./es/index.js",
+  "types": "./es/index.d.ts",
+  "type": "module",
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "private": true
+  },
+  "scripts": {
+    "clean": "rimraf .tscache es coverage",
+    "build": "rc-tsc --build",
+    "start": "yarn build --watch"
+  },
+  "author": "RingCentral",
+  "license": "ISC",
+  "devDependencies": {
+    "web-modules-build": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

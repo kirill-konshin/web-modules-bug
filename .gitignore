@@ -1,0 +1,26 @@
+.idea
+.DS_Store
+.eslint
+.env
+.sass-cache
+.cache
+.cache-loader
+.scannerwork
+.sonar
+allure-report
+node_modules
+npm-debug*
+package-lock.json
+__diff_output__
+lerna-debug.log
+/loki
+*/coverage
+yarn-error.log
+*/es
+*/.tscache
+
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnp.*

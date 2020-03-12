@@ -1,0 +1,12 @@
+{
+  "name": "web-modules-build",
+  "version": "1.0.0",
+  "bin": {
+    "rc-tsc": "./src/bin/tsc.js"
+  },
+  "author": "RingCentral",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "3.8.3"
+  }
+}

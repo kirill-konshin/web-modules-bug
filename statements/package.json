@@ -1,0 +1,18 @@
+{
+  "name": "web-modules-statements",
+  "version": "1.0.0",
+  "main": "./es/Factory.js",
+  "module": "./es/Factory.js",
+  "types": "./es/Factory.d.ts",
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf .tscache es",
+    "build": "rc-tsc --build"
+  },
+  "author": "RingCentral Inc",
+  "license": "ISC",
+  "devDependencies": {
+    "web-modules-build": "^1.0.0",
+    "web-modules-test": "^1.0.0"
+  }
+}

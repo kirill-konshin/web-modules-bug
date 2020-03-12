@@ -1,0 +1,15 @@
+{
+  "name": "web-modules-all",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn workspaces foreach -pt run build"
+  },
+  "author": "RingCentral",
+  "license": "ISC",
+  "workspaces": [
+    "build",
+    "test",
+    "statements"
+  ]
+}
